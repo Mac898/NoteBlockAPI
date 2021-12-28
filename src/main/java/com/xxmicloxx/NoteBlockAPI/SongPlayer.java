@@ -47,7 +47,7 @@ public abstract class SongPlayer {
 	private com.xxmicloxx.NoteBlockAPI.songplayer.SongPlayer newSongPlayer;
 
 	public SongPlayer(Song song) {
-		this(song, SoundCategory.MASTER);
+		this(song, SoundCategory.MUSIC);
 	}
 
 	public SongPlayer(Song song, SoundCategory soundCategory) {
